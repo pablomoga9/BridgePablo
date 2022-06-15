@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    background-color: #F8EDEB;
+}
+
+#rock_restaurant{
+    width: 40%;
+}
+
+
+
+nav > ul > li{
+    list-style:none;
+    display: inline;
+   padding: 10px;
+   
+    
+}
+
+nav > ul > li:hover{
+    background-color: darkorange;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+th,td{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #D8E2DC;
+}
+
+tr:hover > td{
+    background-color: #FEC5BB;
+}
+
+#paradise{
+    width: 10%;
+}
+
+.center{
+    text-align: center;
+    background-color: yellow;
+    margin: 20px;
+    
+    padding: 10px;
+}
+
+h1,h2,h3{
+    text-align: center;
+   
+}
+
+h1{
+    background-color: #FEC5BB;
+   padding: 40px 0;
+}
+
+h2{
+    background-color: #D8E2DC;
+    padding: 10px;
+}
+
+input[type=text], [type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  input[type=text], [type=email], textarea:focus, textarea:focus
+  {
+    background-color: #FEC5BB;
+    border-radius: 4px;
+  }
+
+  input[type=submit]:hover{
+    background-color: #FEC89A;
+  }
+
+  input[type=submit]{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+ 
